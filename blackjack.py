@@ -8,4 +8,8 @@ class card:
 			self.value = 10
 		if value == 'A'
 			self.value = 1
-		
+
+	def value(self):
+		return self.value
+
+	
