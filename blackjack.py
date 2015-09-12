@@ -12,6 +12,12 @@ class Card:
 	def val(self):
 		return self.value
 
-		
-james = Card('J', 'heart')
+	def selfsuit(self):
+		return self.suit
+
+
+
+james = Card(10, 'heart')
 print james.val()
+print james.selfsuit()
+#unfinished work
